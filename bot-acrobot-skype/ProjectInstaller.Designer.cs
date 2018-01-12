@@ -1,5 +1,6 @@
 ﻿namespace bot_acrobot_skype
 {
+    
     partial class ProjectInstaller
     {
         /// <summary>
