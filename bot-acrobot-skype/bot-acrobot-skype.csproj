@@ -64,8 +64,20 @@
     <Reference Include="Log">
       <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\PocBotLib\bin\x64\Release\Log.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Rtc.Collaboration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\PocBotLib\bin\x64\Release\Microsoft.Rtc.Collaboration.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\PocBotLib\bin\x64\Release\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="PocBotLib">
       <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\PocBotLib\bin\x64\Release\PocBotLib.dll</HintPath>
+    </Reference>
+    <Reference Include="RequestApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\PocBotLib\bin\x64\Release\RequestApi.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
