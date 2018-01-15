@@ -52,24 +52,36 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BuildABot.Core">
-      <HintPath>..\..\..\..\..\..\Program Files\Microsoft UCMA 5.0\SDK\Core\Sample Applications\Reference\BuildABot\BuildABot.UC\bin\Debug\BuildABot.Core.dll</HintPath>
+    <Reference Include="BuildABot.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\LyncBotConsole\bin\x64\Release\BuildABot.Core.dll</HintPath>
     </Reference>
-    <Reference Include="BuildABot.UC">
-      <HintPath>..\..\..\..\..\..\Program Files\Microsoft UCMA 5.0\SDK\Core\Sample Applications\Reference\BuildABot\BuildABot.UC\bin\Debug\BuildABot.UC.dll</HintPath>
+    <Reference Include="BuildABot.UC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\LyncBotConsole\bin\x64\Release\BuildABot.UC.dll</HintPath>
     </Reference>
-    <Reference Include="BuildABot.Util">
-      <HintPath>..\..\..\..\..\..\Program Files\Microsoft UCMA 5.0\SDK\Core\Sample Applications\Reference\BuildABot\BuildABot.UC\bin\Debug\BuildABot.Util.dll</HintPath>
+    <Reference Include="BuildABot.Util, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\LyncBotConsole\bin\x64\Release\BuildABot.Util.dll</HintPath>
     </Reference>
-    <Reference Include="Log">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\PocBotLib\bin\x64\Release\Log.dll</HintPath>
+    <Reference Include="Log, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\LyncBotConsole\bin\x64\Release\Log.dll</HintPath>
     </Reference>
-    <Reference Include="PocBotLib">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\PocBotLib\bin\x64\Release\PocBotLib.dll</HintPath>
+    <Reference Include="MessageHandler">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\LyncBotConsole\bin\x64\Release\MessageHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Rtc.Collaboration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\LyncBotConsole\bin\x64\Release\Microsoft.Rtc.Collaboration.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\LyncBotConsole\bin\x64\Release\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="RequestApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\PocBotLib\bin\x64\Release\RequestApi.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2012\Projects\PocBotLib\LyncBotConsole\bin\x64\Release\RequestApi.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />

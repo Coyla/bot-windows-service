@@ -1,0 +1,13 @@
+﻿Installation de l'assembly 'C:\Users\dev-user\source\repos\bot-acrobot-skype\bot-acrobot-skype\bin\Debug\bot-acrobot-skype.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\dev-user\source\repos\bot-acrobot-skype\bot-acrobot-skype\bin\Debug\bot-acrobot-skype.InstallLog
+   assemblypath = C:\Users\dev-user\source\repos\bot-acrobot-skype\bot-acrobot-skype\bin\Debug\bot-acrobot-skype.exe
+Installation du service Service1 en cours...
+Création d'une source EventLog Service1 dans le journal Application...
+Restauration de l'assembly 'C:\Users\dev-user\source\repos\bot-acrobot-skype\bot-acrobot-skype\bin\Debug\bot-acrobot-skype.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\dev-user\source\repos\bot-acrobot-skype\bot-acrobot-skype\bin\Debug\bot-acrobot-skype.InstallLog
+   assemblypath = C:\Users\dev-user\source\repos\bot-acrobot-skype\bot-acrobot-skype\bin\Debug\bot-acrobot-skype.exe
+Restauration de l'état précédent du journal des événements pour la source Service1.
