@@ -34,24 +34,7 @@ namespace bot_acrobot_skype
 
         private void StartBotListenerService(object state)
         {
-            try
-            {
-                Logger.Debug("main bot function");
-                Debug.Listeners.Add(new ConsoleTraceListener());
-                String applicationUserAgent = ConfigurationManager.AppSettings["applicationuseragent"];
-                String applicationurn = ConfigurationManager.AppSettings["applicationurn"];
-                Logger.Debug("applicationUserAgent object: " + applicationUserAgent);
-                Logger.Debug("applicationurn object: " + applicationurn);
-                UCBotHost ucBotHost = new UCBotHost(applicationUserAgent, applicationurn);
-                Logger.Debug("ucBotHost object: " + ucBotHost.ToString());
-                Logger.Debug("ucBot is running...");
-                ucBotHost.Run();
-            }
-            catch (Exception e)
-            {
-                Logger.Debug("error : " + e);
-                Console.ReadLine();
-            }
+            
         }
     }
 }
