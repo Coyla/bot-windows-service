@@ -16,7 +16,7 @@ namespace bot_acrobot_skype
             InitializeComponent();
         }
 
-        private void serviceInstaller1_AfterInstall(object sender, InstallEventArgs e)
+        private void BotAcrobot_AfterInstall(object sender, InstallEventArgs e)
         {
 
         }

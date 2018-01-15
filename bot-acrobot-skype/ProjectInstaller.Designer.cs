@@ -1,6 +1,5 @@
 ﻿namespace bot_acrobot_skype
 {
-    
     partial class ProjectInstaller
     {
         /// <summary>
@@ -30,32 +29,31 @@
         private void InitializeComponent()
         {
             this.serviceProcessInstaller1 = new System.ServiceProcess.ServiceProcessInstaller();
-            this.serviceInstaller1 = new System.ServiceProcess.ServiceInstaller();
+            this.BotAcrobot = new System.ServiceProcess.ServiceInstaller();
             // 
             // serviceProcessInstaller1
             // 
             this.serviceProcessInstaller1.Password = null;
             this.serviceProcessInstaller1.Username = null;
             // 
-            // serviceInstaller1
+            // BotAcrobot
             // 
-            this.serviceInstaller1.Description = "Bot Acrobot message relayer to cloudbluemix. Gets acronym\'s definition";
-            this.serviceInstaller1.DisplayName = "Bot Acrobot";
-            this.serviceInstaller1.ServiceName = "Service1";
-            this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
-            this.serviceInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceInstaller1_AfterInstall);
+            this.BotAcrobot.DisplayName = "Bot Acrobot";
+            this.BotAcrobot.ServiceName = "Service1";
+            this.BotAcrobot.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
+            this.BotAcrobot.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.BotAcrobot_AfterInstall);
             // 
             // ProjectInstaller
             // 
             this.Installers.AddRange(new System.Configuration.Install.Installer[] {
             this.serviceProcessInstaller1,
-            this.serviceInstaller1});
+            this.BotAcrobot});
 
         }
 
         #endregion
 
         private System.ServiceProcess.ServiceProcessInstaller serviceProcessInstaller1;
-        private System.ServiceProcess.ServiceInstaller serviceInstaller1;
+        private System.ServiceProcess.ServiceInstaller BotAcrobot;
     }
 }
