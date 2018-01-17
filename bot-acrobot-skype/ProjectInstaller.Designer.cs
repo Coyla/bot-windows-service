@@ -1,6 +1,6 @@
 ﻿namespace bot_acrobot_skype
 {
-    partial class ProjectInstaller
+    public partial class ProjectInstaller
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -33,7 +33,6 @@
             // 
             // serviceProcessInstaller1
             // 
-            this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
             this.serviceProcessInstaller1.Password = null;
             this.serviceProcessInstaller1.Username = null;
             // 
@@ -47,8 +46,8 @@
             // ProjectInstaller
             // 
             this.Installers.AddRange(new System.Configuration.Install.Installer[] {
-            this.serviceProcessInstaller1,
-            this.BotAcrobot});
+            this.BotAcrobot,
+            this.serviceProcessInstaller1});
 
         }
 
